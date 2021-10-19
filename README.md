@@ -1,2 +1,2 @@
 # linux_font
-linux常用字體一件安裝
+linux常用字體一鍵安裝
