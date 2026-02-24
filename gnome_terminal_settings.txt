@@ -1,0 +1,23 @@
+[legacy/keybindings]
+copy='<Primary><Shift>c'
+paste='<Primary>v'
+
+[legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+background-color='rgb(40,44,52)'
+bold-color='rgb(255,255,255)'
+bold-color-same-as-fg=false
+bold-is-bright=true
+cursor-background-color='rgb(255,255,255)'
+cursor-colors-set=true
+cursor-foreground-color='rgb(115,115,115)'
+default-size-columns=120
+font='MesloLGS NF 14'
+foreground-color='rgb(171,178,191)'
+highlight-background-color='rgb(117,117,117)'
+highlight-colors-set=true
+highlight-foreground-color='rgb(53,53,53)'
+palette=['rgb(40,44,52)', 'rgb(224,108,117)', 'rgb(152,195,121)', 'rgb(229,192,123)', 'rgb(97,175,239)', 'rgb(198,120,221)', 'rgb(86,182,194)', 'rgb(171,178,191)', 'rgb(94,92,100)', 'rgb(246,97,81)', 'rgb(51,218,122)', 'rgb(233,173,12)', 'rgb(42,123,222)', 'rgb(192,97,203)', 'rgb(51,199,222)', 'rgb(255,255,255)']
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=true
+visible-name='onedarkpro'
