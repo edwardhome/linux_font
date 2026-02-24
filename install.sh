@@ -10,3 +10,5 @@ sudo apt-get --purge remove fonts-noto-cjk fonts-noto-cjk-extra fonts-noto-color
 sudo fc-cache -f -v
 sudo dconf load /org/gnome/terminal/ < gnome_terminal_settings.txt
 sudo dpkg-reconfigure locales
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
