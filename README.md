@@ -24,3 +24,23 @@ git clone [https://github.com/edwardhome/Ubuntu_Autosetup.git](https://github.co
 cd Ubuntu_Autosetup
 chmod +x setup.sh
 ./setup.sh
+```
+
+會安裝下列套件
+```bash=
+sudo apt update && sudo apt upgrade -y
+#常用套件
+sudo apt-get install language-pack-zh-han* git vim-gtk3 wget curl make gcc davfs2 samba exfat-fuse nfs-common universal-ctags
+#本土化語言包設定
+sudo dpkg-reconfigure locales
+#快速配置軟體
+sudo apt-get install tasksel
+# 中文輸入法與小企鵝框架
+sudo apt install fcitx5 fcitx5-configtool fcitx5-chinese-addons fcitx5-frontend-all fcitx5-chewing
+# 調校軟體下載，修改系統字體等
+sudo apt-get install gnome-tweak-tool
+# 補強 ARM 開發工具鏈
+sudo apt-get install gcc-arm-none-eabi gcc-aarch64-linux-gnu g++-aarch64-linux-gnu binutils-arm-none-eabi
+# 安裝編譯自動化雙雄
+sudo apt-get install cmake ninja-build -y
+```
