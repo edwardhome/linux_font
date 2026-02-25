@@ -1,5 +1,5 @@
 sudo apt update && sudo apt upgrade -y
-sudo apt-get install language-pack-zh-han* git vim-gtk3 wget curl make gcc davfs2 samba exfat-fuse nfs-common tasksel fcitx5 fcitx5-configtool fcitx5-chinese-addons fcitx5-frontend-all fcitx5-chewing gnome-tweak-tool
+sudo apt-get install language-pack-zh-han* git vim-gtk3 wget curl make gcc davfs2 samba exfat-fuse nfs-common tasksel fcitx5 fcitx5-configtool fcitx5-chinese-addons fcitx5-frontend-all fcitx5-chewing gnome-tweak-tool universal-ctags gcc-arm-none-eabi gcc-aarch64-linux-gnu g++-aarch64-linux-gnu binutils-arm-none-eabi cmake ninja-build
 sudo cp Microsoft_font/* /usr/local/share/fonts
 sudo cp PingFangTC/*  /usr/local/share/fonts
 sudo cp powerlevel10k/* /usr/local/share/fonts
